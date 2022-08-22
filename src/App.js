@@ -7,22 +7,24 @@ import Packages from "./components/Packages";
 const App = () => {
   const prices = [
     {
-      packageA: 45,
-      packageB: 35,
-      packageC: 80,
-      packageD: 110,
-      packageE: 140,
-      multiA: 100,
-      multiB: 140,
-      multiC: 185,
-      Ausb: 65,
-      Busb: 55,
-      Cusb: 100,
-      Dusb: 130,
-      Eusb: 170,
-      MAusb: 120,
-      MBusb: 165,
-      MCusb: 215
+      packageA: 50,
+      packageB: 40,
+      packageC: 95,
+      packageD: 130,
+      packageE: 160,
+      packageF: 185,
+      multiA: 115,
+      multiB: 145,
+      multiC: 165,
+      Ausb: 70,
+      Busb: 60,
+      Cusb: 115,
+      Dusb: 150,
+      Eusb: 190,
+      Fusb: 215,
+      MAusb: 140,
+      MBusb: 180,
+      MCusb: 210
     }
   ];
 
