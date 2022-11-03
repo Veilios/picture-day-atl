@@ -342,18 +342,6 @@ const Packages = (props) => {
               src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
               alt="Pose"
             />
-            <img
-              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
-              alt="Pose"
-            />
-            <img
-              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
-              alt="Pose"
-            />
-            <img
-              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
-              alt="Pose"
-            />
           </div>
         </div>
       </div>
