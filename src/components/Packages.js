@@ -222,10 +222,6 @@ const Packages = (props) => {
               src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
               alt="Pose"
             />
-            <img
-              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
-              alt="Pose"
-            />
           </div>
         </div>
       </div>
@@ -265,7 +261,7 @@ const Packages = (props) => {
       {/* Multi B */}
       <div className="red">
         <h3>
-          Multi B (5 Poses) $
+          Multi B (4 Poses) $
           {props.taxRate.tax === 0 || props.taxRate.tax === null
             ? props.price.multiB
             : props.price.multiB +
@@ -273,7 +269,7 @@ const Packages = (props) => {
         </h3>
         <div className="details">
           <div>
-            <p>Collage of 5 Images</p>
+            <p>Collage of 4 Images</p>
             <p>1 (10x13), 1 (8x10), 2(5x7)</p>
             <p>* Free Digital Images</p>
             <p>Extra Backgrounds $25</p>
@@ -297,7 +293,7 @@ const Packages = (props) => {
       {/* Multi C */}
       <div className="red">
         <h3>
-          Multi C (8 Poses) $
+          Multi C (5 Poses) $
           {props.taxRate.tax === 0 || props.taxRate.tax === null
             ? props.price.multiC
             : props.price.multiC +
@@ -305,7 +301,7 @@ const Packages = (props) => {
         </h3>
         <div className="details">
           <div>
-            <p>Collage of 8 Images</p>
+            <p>Collage of 5 Images</p>
             <p>2 (10x13), 1 (8x10), 2(5x7)</p>
             <p>* Free Digital Images</p>
             <p>Extra Backgrounds $30</p>
