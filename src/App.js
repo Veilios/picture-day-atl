@@ -22,9 +22,8 @@ const App = () => {
       Dusb: 150,
       Eusb: 190,
       Fusb: 215,
-      MAusb: 140,
-      MBusb: 180,
-      MCusb: 210
+      usb1: 40,
+      usb2: 125
     }
   ];
 

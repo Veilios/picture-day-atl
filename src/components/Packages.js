@@ -240,14 +240,6 @@ const Packages = (props) => {
             <p>Collage of 3 Images</p>
             <p>1 (8x10), 3 (5x7), 4 wallets</p>
             <p>* Free Digital Images</p>
-            <p>Extra Backgrounds $20</p>
-            <h3>
-              Total with extra backgrounds $
-              {props.taxRate.tax === 0 || props.taxRate.tax === null
-                ? props.price.MAusb
-                : props.price.MAusb +
-                props.price.MAusb * (props.taxRate.tax / 100)}
-            </h3>
           </div>
           <div className="images">
             <img
@@ -272,14 +264,6 @@ const Packages = (props) => {
             <p>Collage of 4 Images</p>
             <p>1 (10x13), 1 (8x10), 2(5x7)</p>
             <p>* Free Digital Images</p>
-            <p>Extra Backgrounds $25</p>
-            <h3>
-              Total with extra backgrounds $
-              {props.taxRate.tax === 0 || props.taxRate.tax === null
-                ? props.price.MBusb
-                : props.price.MBusb +
-                props.price.MBusb * (props.taxRate.tax / 100)}
-            </h3>
           </div>
           <div className="images">
             <img
@@ -304,16 +288,68 @@ const Packages = (props) => {
             <p>Collage of 5 Images</p>
             <p>2 (10x13), 1 (8x10), 2(5x7)</p>
             <p>* Free Digital Images</p>
-            <p>Extra Backgrounds $30</p>
-            <h3>
-              Total with extra backgrounds $
-              {props.taxRate.tax === 0 || props.taxRate.tax === null
-                ? props.price.MCusb
-                : props.price.MCusb +
-                props.price.MCusb * (props.taxRate.tax / 100)}
-            </h3>
           </div>
           <div className="images">
+            <img
+              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
+              alt="Pose"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/** 1 Digital Image Only */}
+      <div className="orange">
+        <h3>
+          USB 1 (1 Pose) $
+          {props.taxRate.tax === 0 || props.taxRate.tax === null
+            ? props.price.usb1
+            : props.price.usb1 +
+            props.price.usb1 * (props.taxRate.tax / 100)}
+        </h3>
+        <div className="details">
+          <div>
+            <p>1 image digital only</p>
+            <p>1 Background</p>
+            <p>Image copyrights included</p>
+          </div>
+          <div className="images">
+            <img
+              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
+              alt="Pose"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/** 5 Digital Image Only */}
+      <div className="orange">
+        <h3>
+          USB 5 (5 Pose) $
+          {props.taxRate.tax === 0 || props.taxRate.tax === null
+            ? props.price.usb2
+            : props.price.usb2 +
+            props.price.usb2 * (props.taxRate.tax / 100)}
+        </h3>
+        <div className="details">
+          <div>
+            <p>5 image digital only</p>
+            <p>5 Backgrounds</p>
+            <p>Image copyrights included</p>
+          </div>
+          <div className="images">
+            <img
+              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
+              alt="Pose"
+            />
+            <img
+              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
+              alt="Pose"
+            />
+            <img
+              src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
+              alt="Pose"
+            />
             <img
               src="https://ae01.alicdn.com/kf/HTB1LB97LFXXXXcFXpXXq6xXFXXXp/5pcs-lot-Adult-children-dobok-taekwondo-uniforms-100-Cotton-tae-kwon-do-clothes-kids-taekwondo-ITF.jpg"
               alt="Pose"
