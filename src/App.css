@@ -58,6 +58,14 @@ h3 {
   margin: 5px;
 }
 
+.orange {
+  background-color: rgb(211, 80, 40);
+  width: 400px;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+}
+
 .images {
   display: flex;
 }
